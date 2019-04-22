@@ -5,10 +5,13 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('#mainnavigation').css('background-color', 'orange');
-		  $('#mainnavigation').css('border-radius', '5px');
+		  $('.navbar-nav.items-top').css('background-color', 'orange');
+		  $('.navbar-nav.items-top').css('border-radius', '5px');
+		  $('.navbar-toggler-icon').css('background-color', 'orange');
+		  
        } else {
-          $('#mainnavigation').css('background-color', 'transparent');
+          $('.navbar-nav.items-top').css('background-color', 'transparent');
+		   $('.navbar-toggler-icon').css('background-color', 'transparent');
        }
    });
 });
