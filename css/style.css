@@ -98,6 +98,7 @@
 		padding-bottom: 15px;
 		margin-left: 48px;
 	}
+	
 	/*projects text*/
 }
 @media (max-width: 670px) {
@@ -110,6 +111,11 @@
 @media (max-width: 767px) {
 	.projects {
 		padding-top: 150px;
+	}
+}
+@media (max-width: 413px) {
+	.navbar-toggler {
+		margin-left: 0px;
 	}
 }
 /*News text*/
